@@ -54,6 +54,17 @@ flutter run
   <img src="https://github.com/user-attachments/assets/10e651c1-bd78-4f7c-a423-37d2c3ef454b" width="240" />
   <img src="https://github.com/user-attachments/assets/ea57101a-f2ae-42c8-8a2e-e9e3587245a4" width="240" />
   <img src="https://github.com/user-attachments/assets/a26745f2-a3e9-48cb-be7c-54d14752b0c8" width="240" />
+  <img width="1080" height="2400" alt="Screenshot_1776952140" src="https://github.com/user-attachments/assets/1bc13726-b3a2-4ba2-bb4f-537913414a1a" />
+  <img width="1080" height="2400" alt="Screenshot_1776952143" src="https://github.com/user-attachments/assets/07825aa9-b19d-4f4c-b3c1-409865c13976" />
+  <img width="1080" height="2400" alt="Screenshot_1776952143" src="https://github.com/user-attachments/assets/ccc409db-537b-4fae-9c4e-8af7dad6eec0" />
+  <img width="1080" height="2400" alt="Screenshot_1776952149" src="https://github.com/user-attachments/assets/99d724f7-64d3-40f0-990d-a02b7126808a" />
+  <img width="1080" height="2400" alt="Screenshot_1776952154" src="https://github.com/user-attachments/assets/b15861a7-9665-41fa-b81c-86318e8aa313" />
+  <img width="1080" height="2400" alt="Screenshot_1776952158" src="https://github.com/user-attachments/assets/df55dd5b-777c-4e0e-9e97-16843009d86e" />
+  <img width="1080" height="2400" alt="Screenshot_1776952162" src="https://github.com/user-attachments/assets/1ec1614d-6856-40b1-bdc9-0117771ca606" />
+  <img width="1080" height="2400" alt="Screenshot_1776952174" src="https://github.com/user-attachments/assets/17ae945a-5db3-4f70-aa94-949ca3fe1252" />
+  <img width="1080" height="2400" alt="Screenshot_1776952179" src="https://github.com/user-attachments/assets/1fae0c4e-840a-482f-888a-8ad20ac4f430" />
+  <img width="1080" height="2400" alt="Screenshot_1776952184" src="https://github.com/user-attachments/assets/bc920419-db24-413e-89d0-352cdea146a2" />
+  <img width="1080" height="2400" alt="Screenshot_1776952198" src="https://github.com/user-attachments/assets/fc75110d-b7b1-4cad-8bf4-d9c6dfc37fad" />
 </p>
 > *Hình ảnh minh họa các tính năng chính của Lumi Finance trên nền tảng Mobile.*
 👤 Tác giả
