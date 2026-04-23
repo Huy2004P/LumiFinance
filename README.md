@@ -41,12 +41,12 @@ lib/
 Cài đặt và Chạy thử
 Để chạy dự án này ở môi trường local, bạn cần cài đặt Flutter SDK.
 1. Clone dự án
-git clone [https://github.com/your-username/personal_finance_tracker.git](https://github.com/your-username/personal_finance_tracker.git)
-2. Cài đặt các packages:
+git clone https://github.com/Huy2004P/LumiFinance.git
+3. Cài đặt các packages:
 flutter pub get
-3. Chạy code generation (nếu có sử dụng build_runner):
+4. Chạy code generation (nếu có sử dụng build_runner):
 flutter pub run build_runner build --delete-conflicting-outputs
-4. Chạy ứng dụng:
+5. Chạy ứng dụng:
 flutter run
 ### 📸 Screenshots
 
