@@ -40,7 +40,7 @@ lib/
 
 Cài đặt và Chạy thử
 Để chạy dự án này ở môi trường local, bạn cần cài đặt Flutter SDK.
-1. Clone dự án
+1. Clone dự án:
 git clone https://github.com/Huy2004P/LumiFinance.git
 3. Cài đặt các packages:
 flutter pub get
