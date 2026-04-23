@@ -55,7 +55,6 @@ flutter run
   <img src="https://github.com/user-attachments/assets/ea57101a-f2ae-42c8-8a2e-e9e3587245a4" width="240" />
   <img src="https://github.com/user-attachments/assets/a26745f2-a3e9-48cb-be7c-54d14752b0c8" width="240" />
   <img src="https://github.com/user-attachments/assets/1bc13726-b3a2-4ba2-bb4f-537913414a1a" width="240" />
-  <img src="https://github.com/user-attachments/assets/07825aa9-b19d-4f4c-b3c1-409865c13976" width="240" />
   <img src="https://github.com/user-attachments/assets/ccc409db-537b-4fae-9c4e-8af7dad6eec0" width="240" />
   <img src="https://github.com/user-attachments/assets/99d724f7-64d3-40f0-990d-a02b7126808a" width="240" />
   <img src="https://github.com/user-attachments/assets/b15861a7-9665-41fa-b81c-86318e8aa313" width="240" />
