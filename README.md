@@ -65,7 +65,8 @@ flutter run
   <img src="https://github.com/user-attachments/assets/bc920419-db24-413e-89d0-352cdea146a2" width="240" />
   <img src="https://github.com/user-attachments/assets/fc75110d-b7b1-4cad-8bf4-d9c6dfc37fad" width="240" />
 </p>
-> *Hình ảnh minh họa các tính năng chính của Lumi Finance trên nền tảng Mobile.*\n
+> *Hình ảnh minh họa các tính năng chính của Lumi Finance trên nền tảng Mobile.*
+
 👤 Tác giả
 Văn Bá Phát Huy - Email: [phathuy2004h@gmail.com]
 Role: Mobile Developer
