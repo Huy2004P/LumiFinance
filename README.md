@@ -20,8 +20,8 @@
 - **State Management:** BLoC / Riverpod (Tùy chọn theo dự án)
 - **Architecture:** Clean Architecture (Data, Domain, Presentation)
 - **Dependency Injection:** GetIt & Injectable
-- **Local Database:** Hive / Isar (Đảm bảo tốc độ truy xuất nhanh)
-- **UI Components:** - `fl_chart` cho biểu đồ.
+- **Local Database:** Google Firestore
+- **UI Components:** - `fl_chart` cho biểu đồ - comming soon.
   - `google_fonts` cho typography chuyên nghiệp.
   - `intl` cho định dạng tiền tệ.
 
