@@ -51,9 +51,9 @@ flutter run
 ### 📸 Screenshots
 
 <p align="left">
-  <img src="<img width="1080" height="2400" alt="Screenshot_1776952106" src="https://github.com/user-attachments/assets/10e651c1-bd78-4f7c-a423-37d2c3ef454b" width="180" />
-  <img src="<img width="1080" height="2400" alt="Screenshot_1776952110" src="https://github.com/user-attachments/assets/ea57101a-f2ae-42c8-8a2e-e9e3587245a4" width="180" />
-  <img src="<img width="1080" height="2400" alt="Screenshot_1776952118" src="https://github.com/user-attachments/assets/a26745f2-a3e9-48cb-be7c-54d14752b0c8" width="180" />
+  <img src="<img width="1080" height="2400" alt="Screenshot_1776952106" src="https://github.com/user-attachments/assets/10e651c1-bd78-4f7c-a423-37d2c3ef454b"/>
+  <img src="<img width="1080" height="2400" alt="Screenshot_1776952110" src="https://github.com/user-attachments/assets/ea57101a-f2ae-42c8-8a2e-e9e3587245a4"/>
+  <img src="<img width="1080" height="2400" alt="Screenshot_1776952118" src="https://github.com/user-attachments/assets/a26745f2-a3e9-48cb-be7c-54d14752b0c8"/>
   <img src="4.png" width="180" />
   <img src="5.png" width="180" />
   <img src="6.png" width="180" />
