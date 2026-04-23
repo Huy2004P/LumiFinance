@@ -48,3 +48,24 @@ flutter pub get
 flutter pub run build_runner build --delete-conflicting-outputs
 4. Chạy ứng dụng:
 flutter run
+### 📸 Screenshots
+
+<p align="left">
+  <img src="<img width="1080" height="2400" alt="Screenshot_1776952106" src="https://github.com/user-attachments/assets/10e651c1-bd78-4f7c-a423-37d2c3ef454b" width="180" />
+  <img src="<img width="1080" height="2400" alt="Screenshot_1776952110" src="https://github.com/user-attachments/assets/ea57101a-f2ae-42c8-8a2e-e9e3587245a4" width="180" />
+  <img src="<img width="1080" height="2400" alt="Screenshot_1776952118" src="https://github.com/user-attachments/assets/a26745f2-a3e9-48cb-be7c-54d14752b0c8" width="180" />
+  <img src="4.png" width="180" />
+  <img src="5.png" width="180" />
+  <img src="6.png" width="180" />
+  <img src="7.png" width="180" />
+  <img src="8.png" width="180" />
+  <img src="9.png" width="180" />
+  <img src="10.png" width="180" />
+  <img src="11.png" width="180" />
+  <img src="12.png" width="180" />
+  <img src="13.png" width="180" />
+</p>
+> *Hình ảnh minh họa các tính năng chính của Lumi Finance trên nền tảng Mobile.*
+👤 Tác giả
+Văn Bá Phát Huy - Email: [phathuy2004h@gmail.com]
+Role: Mobile Developer
