@@ -56,14 +56,12 @@ flutter run
   <img src="https://github.com/user-attachments/assets/a26745f2-a3e9-48cb-be7c-54d14752b0c8" width="240" />
   <img src="https://github.com/user-attachments/assets/1bc13726-b3a2-4ba2-bb4f-537913414a1a" width="240" />
   <img src="https://github.com/user-attachments/assets/ccc409db-537b-4fae-9c4e-8af7dad6eec0" width="240" />
-  <img src="https://github.com/user-attachments/assets/99d724f7-64d3-40f0-990d-a02b7126808a" width="240" />
   <img src="https://github.com/user-attachments/assets/b15861a7-9665-41fa-b81c-86318e8aa313" width="240" />
   <img src="https://github.com/user-attachments/assets/df55dd5b-777c-4e0e-9e97-16843009d86e" width="240" />
   <img src="https://github.com/user-attachments/assets/1ec1614d-6856-40b1-bdc9-0117771ca606" width="240" />
   <img src="https://github.com/user-attachments/assets/17ae945a-5db3-4f70-aa94-949ca3fe1252" width="240" />
   <img src="https://github.com/user-attachments/assets/1fae0c4e-840a-482f-888a-8ad20ac4f430" width="240" />
   <img src="https://github.com/user-attachments/assets/bc920419-db24-413e-89d0-352cdea146a2" width="240" />
-  <img src="https://github.com/user-attachments/assets/fc75110d-b7b1-4cad-8bf4-d9c6dfc37fad" width="240" />
 </p>
 > *Hình ảnh minh họa các tính năng chính của Lumi Finance trên nền tảng Mobile.*
 
