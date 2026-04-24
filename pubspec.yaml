@@ -28,6 +28,7 @@ dependencies:
   share_plus: ^13.0.0
   flutter_native_splash: ^2.4.7
   html_to_pdf_plus: ^1.0.7
+  fl_chart: ^0.70.2
 dev_dependencies:
   flutter_test:
     sdk: flutter

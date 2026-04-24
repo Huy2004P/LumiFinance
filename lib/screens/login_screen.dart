@@ -16,6 +16,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _passwordController = TextEditingController();
 
   bool _isLoading = false;
+  bool _isPasswordVisible = false;
 
   // HÀM XỬ LÝ ĐĂNG NHẬP
   void _handleLogin() async {
@@ -180,6 +181,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 "Password",
                 isPassword: true,
                 controller: _passwordController,
+                isVisible: _isPasswordVisible,
+                onToggleVisibility: () =>
+                    setState(() => _isPasswordVisible = !_isPasswordVisible),
               ),
 
               const SizedBox(height: 32),
@@ -235,11 +239,13 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-  // Cập nhật hàm này để nhận thêm TextEditingController
+  // Cập nhật hàm này để nhận thêm TextEditingController và toggle visibility
   Widget _buildModernInput(
     String hint, {
     bool isPassword = false,
     required TextEditingController controller,
+    bool isVisible = false,
+    VoidCallback? onToggleVisibility,
   }) {
     return Container(
       decoration: BoxDecoration(
@@ -253,8 +259,8 @@ class _LoginScreenState extends State<LoginScreen> {
         ],
       ),
       child: TextField(
-        controller: controller, // Nhận phím gõ ở đây
-        obscureText: isPassword,
+        controller: controller,
+        obscureText: isPassword && !isVisible,
         style: const TextStyle(color: AppleColors.nearBlack),
         decoration: InputDecoration(
           hintText: hint,
@@ -269,6 +275,18 @@ class _LoginScreenState extends State<LoginScreen> {
             borderRadius: BorderRadius.circular(16),
             borderSide: BorderSide.none,
           ),
+          suffixIcon: isPassword
+              ? IconButton(
+                  icon: Icon(
+                    isVisible
+                        ? Icons.visibility_rounded
+                        : Icons.visibility_off_rounded,
+                    color: Colors.black38,
+                    size: 22,
+                  ),
+                  onPressed: onToggleVisibility,
+                )
+              : null,
         ),
       ),
     );

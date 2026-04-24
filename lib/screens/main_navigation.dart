@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:personal_finance_tracker/screens/profile_screen.dart';
 import 'package:personal_finance_tracker/screens/wallet_screen.dart';
+import 'package:personal_finance_tracker/screens/statistics_screen.dart';
 import 'dart:ui'; // Bắt buộc phải có để dùng hiệu ứng ImageFilter (Blur)
 import '../theme/apple_design.dart';
 import 'home_screen.dart';
@@ -27,6 +28,7 @@ class _MainNavigationState extends State<MainNavigation> {
         },
       ),
       const WalletScreen(),
+      const StatisticsScreen(),
       const ProfileScreen(),
     ];
 
@@ -91,6 +93,17 @@ class _MainNavigationState extends State<MainNavigation> {
                     child: Icon(Icons.account_balance_wallet_rounded),
                   ),
                   label: 'Wallet',
+                ),
+                BottomNavigationBarItem(
+                  icon: Padding(
+                    padding: EdgeInsets.only(bottom: 4),
+                    child: Icon(Icons.bar_chart_rounded),
+                  ),
+                  activeIcon: Padding(
+                    padding: EdgeInsets.only(bottom: 4),
+                    child: Icon(Icons.bar_chart_rounded),
+                  ),
+                  label: 'Thống kê',
                 ),
                 BottomNavigationBarItem(
                   icon: Padding(

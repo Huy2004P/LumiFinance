@@ -18,6 +18,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
       TextEditingController();
 
   bool _isLoading = false; // Trạng thái chờ khi gọi API
+  bool _isPasswordVisible = false;
+  bool _isConfirmPasswordVisible = false;
 
   // 2. Hàm xử lý đăng ký
   Future<void> _handleRegister() async {
@@ -94,6 +96,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
               Icons.lock_outline,
               isPassword: true,
               controller: passwordController,
+              isVisible: _isPasswordVisible,
+              onToggleVisibility: () =>
+                  setState(() => _isPasswordVisible = !_isPasswordVisible),
             ),
             const SizedBox(height: 16),
             _buildModernInput(
@@ -101,6 +106,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
               Icons.lock_reset_outlined,
               isPassword: true,
               controller: confirmPasswordController,
+              isVisible: _isConfirmPasswordVisible,
+              onToggleVisibility: () => setState(
+                () => _isConfirmPasswordVisible = !_isConfirmPasswordVisible,
+              ),
             ),
 
             const SizedBox(height: 48),
@@ -116,12 +125,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
     );
   }
 
-  // Cập nhật hàm build input để nhận controller
+  // Cập nhật hàm build input để nhận controller và toggle visibility
   Widget _buildModernInput(
     String hint,
     IconData icon, {
     bool isPassword = false,
     required TextEditingController controller,
+    bool isVisible = false,
+    VoidCallback? onToggleVisibility,
   }) {
     return Container(
       decoration: BoxDecoration(
@@ -135,8 +146,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
         ],
       ),
       child: TextField(
-        controller: controller, // <--- Quan trọng: Phải có dòng này
-        obscureText: isPassword,
+        controller: controller,
+        obscureText: isPassword && !isVisible,
         decoration: InputDecoration(
           prefixIcon: Icon(icon, color: AppleColors.appleBlue),
           hintText: hint,
@@ -146,6 +157,18 @@ class _RegisterScreenState extends State<RegisterScreen> {
             borderRadius: BorderRadius.circular(16),
             borderSide: BorderSide.none,
           ),
+          suffixIcon: isPassword
+              ? IconButton(
+                  icon: Icon(
+                    isVisible
+                        ? Icons.visibility_rounded
+                        : Icons.visibility_off_rounded,
+                    color: Colors.black38,
+                    size: 22,
+                  ),
+                  onPressed: onToggleVisibility,
+                )
+              : null,
         ),
       ),
     );
